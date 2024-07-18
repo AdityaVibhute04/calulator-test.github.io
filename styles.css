@@ -55,7 +55,7 @@ button.btn-primary:hover {
     border-radius: 8px;
 }
 
-#plot {
+/* #plot {
   width: 100%;
   height: auto;
 }
@@ -82,7 +82,7 @@ button.btn-primary:hover {
   #plot {
     height: 700px;
   }
-}
+} */
 
 p {
     margin: 5px 0;
