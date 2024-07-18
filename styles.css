@@ -56,11 +56,32 @@ button.btn-primary:hover {
 }
 
 #plot {
-    margin-top: 20px;
-    height: 720px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  #plot {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #plot {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  #plot {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #plot {
+    height: 700px;
+  }
 }
 
 p {
